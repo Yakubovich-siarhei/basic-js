@@ -29,7 +29,9 @@ function dateSample(sampleActivity ) {
     return false
   }
 
-  let a = 0.693 / HALF_LIFE_PERIOD;
+
+  let HALF_LIFE = 0.693;
+  let a = HALF_LIFE / HALF_LIFE_PERIOD;
   let b = Math.log(MODERN_ACTIVITY / +sampleActivity);
   let c = b / a;
 
