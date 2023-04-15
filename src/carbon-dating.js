@@ -36,7 +36,6 @@ function dateSample(sampleActivity ) {
   let c = b / a;
 
   return Math.ceil(c)
-
 }
 
 module.exports = {

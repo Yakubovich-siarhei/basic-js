@@ -24,7 +24,7 @@ function countCats(matrix) {
         }
       }
     }
-return result;
+  return result;
 }
 
 module.exports = {

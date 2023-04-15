@@ -46,7 +46,6 @@ function transform(arr) {
           break;
       }
   }
-
   return result;
 }
 

@@ -8,7 +8,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * in case of incorrect members
  *
  * @example
- * 
+ *
  * createDreamTeam(['Matt', 'Ann', 'Dmitry', 'Max']) => 'ADMM'
  * createDreamTeam(['Olivia', 1111, 'Lily', 'Oscar', true, null]) => 'LOO'
  *

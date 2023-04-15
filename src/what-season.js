@@ -9,7 +9,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * @example
  * 
  * getSeason(new Date(2020, 02, 31)) => 'spring'
- * 
+ *
  */
 function getSeason(date) {
   if (date == undefined) {
